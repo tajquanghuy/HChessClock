@@ -9,6 +9,7 @@ import androidx.fragment.app.Fragment
 import androidx.navigation.fragment.findNavController
 import com.pigllet.hchessclock.R
 import com.pigllet.hchessclock.billings.activities.BuyCoinActivity
+import com.pigllet.hchessclock.billings.activities.IAPActivity
 import com.pigllet.hchessclock.databinding.FragmentHomeBinding
 
 class HomeFragment : Fragment() {
@@ -32,7 +33,7 @@ class HomeFragment : Fragment() {
             findNavController().navigate(R.id.action_to_settingsFragment)
         }
         binding.btnBuy.setOnClickListener {
-            startActivity(Intent(activity, BuyCoinActivity::class.java))
+            startActivity(Intent(activity, IAPActivity::class.java))
         }
     }
 

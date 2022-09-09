@@ -26,6 +26,16 @@
         <activity
             android:name=".MainActivity"
             android:exported="true" />
+
+        <activity
+            android:name=".billings.activities.BuyCoinActivity"
+            android:exported="true" />
+        <activity
+            android:name=".billings.activities.Subscriptions"
+            android:exported="true" />
+        <activity
+            android:name=".billings.activities.IAPActivity"
+            android:exported="true" />
     </application>
 
 </manifest>
