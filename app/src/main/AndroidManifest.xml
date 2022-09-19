@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="com.pigllet.hchessclock">
+    package="com.clockchess.hchessclock">
     <uses-permission android:name="com.android.vending.BILLING" />
 
     <application
@@ -15,7 +15,7 @@
         android:theme="@style/Theme.HChessClock"
         tools:targetApi="31">
         <activity
-            android:name=".SplashActivity"
+            android:name="com.clockchess.hchessclock.SplashActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -24,17 +24,17 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".MainActivity"
+            android:name="com.clockchess.hchessclock.MainActivity"
             android:exported="true" />
 
         <activity
-            android:name=".billings.activities.BuyCoinActivity"
+            android:name="com.clockchess.hchessclock.billings.activities.BuyCoinActivity"
             android:exported="true" />
         <activity
-            android:name=".billings.activities.Subscriptions"
+            android:name="com.clockchess.hchessclock.billings.activities.Subscriptions"
             android:exported="true" />
         <activity
-            android:name=".billings.activities.IAPActivity"
+            android:name="com.clockchess.hchessclock.billings.activities.IAPActivity"
             android:exported="true" />
     </application>
 
